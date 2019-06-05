@@ -100,11 +100,12 @@ nav {
 
 .flex-nav {
 	display: flex;
+	justify-content: space-between;
 }
 
 /* Main header and image*/
 
-.container-header {
+.flex-header {
 	width: 900px;
 	display: flex;
 	align-content: center;
@@ -137,6 +138,7 @@ button {
 	padding: 5px 15px 5px 15px;
 	text-align: center;
 	margin: 30px 0px 100px 150px;
+	padding: 5px 30px 5px 30px; 
 }
 
 button:hover {
@@ -146,18 +148,27 @@ button:hover {
 
 /* Main content */
 
+.top-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
 
 /* Top section P refers to the top section*/
 
 .top-section-p {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 400px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
 .bottom-section-p {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 250px;
 	margin: 15px 20px 15px 20px;
 }
@@ -178,4 +189,6 @@ address {
 
 .copyright {
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
