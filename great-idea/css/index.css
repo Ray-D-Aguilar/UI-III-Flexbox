@@ -106,10 +106,12 @@ nav {
 
 .container-header {
 	width: 900px;
+	display: flex;
+	align-content: center;
 }
 
 .header {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 400px;
 }
 
