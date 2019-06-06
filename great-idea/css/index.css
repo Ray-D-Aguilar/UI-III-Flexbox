@@ -198,3 +198,17 @@ address {
 
 /* CSS for Services HTML Starts here ~~~~~~~~~~~~ */
 
+main {
+	width: 750px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-end;
+	justify-content: space-around;
+
+}
+
+.main-section {
+	width: 300px;
+	background: #F4F3F4;
+	border: 1px solid black;
+}
