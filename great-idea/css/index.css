@@ -200,15 +200,23 @@ address {
 
 main {
 	width: 750px;
+	height: 1000px;
 	display: flex;
 	flex-flow: row wrap;
-	align-items: flex-end;
+	align-content: space-around;
 	justify-content: space-around;
+	margin-left: 100px;
+
 
 }
 
 .main-section {
-	width: 300px;
+	width: 350px;
+	padding: 10px;
 	background: #F4F3F4;
 	border: 1px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-around;
+	justify-content: center;
 }
