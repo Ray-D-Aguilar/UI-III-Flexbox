@@ -143,6 +143,7 @@ button {
 	border: black 1px solid;
 	text-align: center;
 	padding: 5px 15px 5px 15px; 
+	border-radius: 5px;
 }
 
 button:hover {
@@ -198,6 +199,8 @@ address {
 
 /* CSS for Services HTML Starts here ~~~~~~~~~~~~ */
 
+
+/*Main section */
 main {
 	width: 750px;
 	height: 1000px;
@@ -219,4 +222,14 @@ main {
 	flex-flow: row wrap;
 	align-content: space-around;
 	justify-content: center;
+}
+
+/*footer section */
+
+.footer {
+	display: flex;
+}
+
+.flex-footer img{
+	width: 350px;
 }
