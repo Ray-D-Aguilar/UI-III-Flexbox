@@ -34,13 +34,7 @@
   
    
   
-   .header-1 {
-      /* display: flex; */
-      /* flex-flow: column wrap; */
-      /* justify-content: center;
-      align-content: center; */
-      /* border: 1px red solid; */
-  }
+   
   
   .flex-header {
       display: flex;
