@@ -25,22 +25,33 @@
       margin-left: 10px;
   }
   
-   nav {
-      text-align: center;
-      margin-bottom: 20px;
+   .flex-nav {
+      display: flex;
   }
   
   
    /* Main header and image*/
   
-   .container-header {
-      width: 900px;
+   
+  
+   .header-1 {
+      /* display: flex; */
+      /* flex-flow: column wrap; */
+      /* justify-content: center;
+      align-content: center; */
+      /* border: 1px red solid; */
   }
   
-   .header {
-      display: inline-block;
-      width: 400px;
+  .flex-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+
+
   }
+
   
   
    .header h1 {
