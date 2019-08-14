@@ -3,7 +3,14 @@
     width: 900px;
     margin: 0 auto;
   }
+
+  p {
+      font-weight: 550;
+  }
   
+  h3 {
+      font-size: 30px;
+  }
    /*Header section*/
   a {
       color: grey;
@@ -30,8 +37,12 @@
   
    .flex-nav {
       display: flex;
+      width: 100%;
+      justify-content: space-between;
+      
   }
-  
+
+
   
    /* Main header and image*/
   
@@ -80,10 +91,11 @@
    button {
       display: block;
       background: white;
-      border: black 1px solid;
+      border: black 2px solid;
       padding: 5px 15px 5px 15px;
       text-align: center;
       width: 50%;
+      border-radius: 5px;
       
   }
   
@@ -94,15 +106,23 @@
   }
   
    /* Main content */
+   .top-content {
+       border: 1px solid red;
+       display: flex;
+   }
   
+   .middle-img {
+       width: 100%;
+   }
   
    /* Top section P refers to the top section*/
   
    .top-section-p {
-      display: inline-block;
-      width: 400px;
-      margin-top: 40px;
-      margin-bottom: 40px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
   }
   
    .bottom-section-p {
