@@ -33,15 +33,25 @@
    /* Main header and image*/
   
    
-  
+   .header {
+	/* width: 200px; */
+	display: flex;
+	flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+	
+	
+}
    
   
   .flex-header {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       width: 100%;
+      /* margin: 40px 0px; */
 
 
   }
@@ -52,12 +62,12 @@
       font-size: 50px;
       width: 200px;
       text-align: center;
-      margin: 0 auto;
+      /* margin: 0 auto; */
   }
   
    .header img {
       height: 300px;
-      margin: 0 auto;
+      /* margin: 0 auto; */
   }
   
    /* Button section */
@@ -68,7 +78,8 @@
       border: black 1px solid;
       padding: 5px 15px 5px 15px;
       text-align: center;
-      margin: 30px 0px 100px 150px;
+      /* margin: 0 auto; */
+      width: 50%;
   }
   
    button:hover {
